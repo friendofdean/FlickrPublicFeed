@@ -1,9 +1,8 @@
-/* Feed Box styling */
+/* responsive grid layout */
 * {
     box-sizing: border-box;
 }
 
-/* responsive grid layout */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -60,11 +59,9 @@
     height: 100%;
     border: 1px solid black;
     background-color: black;
-/*    margin-bottom: -99999px;
-    padding-bottom: 99999px;*/
 }
 
-.post-image > img {
+.post-image > a > img {
     display: block;
     margin: auto;
     vertical-align: middle;
